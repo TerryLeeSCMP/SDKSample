@@ -6,7 +6,6 @@ import PackageDescription
 let package = Package(
     name: "SDKSample",
     platforms: [
-        .macOS(.v10_10),
         .iOS(.v10)
     ],
     products: [
@@ -25,7 +24,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SDKSample",
-            dependencies: []),
+            dependencies: ["Alamofire"]),
         .testTarget(
             name: "SDKSampleTests",
             dependencies: ["SDKSample"]),

@@ -1,12 +1,16 @@
+import Alamofire
+
 public struct SDKSample {
     public private(set) var text = "Hello, World!"
 
     public init() {
     }
     
-    public func start() -> String {
-        let string = "SDKSample start"
-        print(string)
-        return string
+    public func start() {
+        print("SDKSample finish")
+    }
+    
+    public func finish() {
+        print("SDKSample finish")
     }
 }

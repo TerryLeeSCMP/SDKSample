@@ -8,11 +8,4 @@ final class SDKSampleTests: XCTestCase {
         // results.
         XCTAssertEqual(SDKSample().text, "Hello, World!")
     }
-    
-    func testStart() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(SDKSample().start(), "SDKSample start")
-    }
 }
