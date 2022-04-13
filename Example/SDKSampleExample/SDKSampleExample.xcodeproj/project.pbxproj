@@ -13,7 +13,7 @@
 		E9C289FB28066FC400FC2EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C289F928066FC400FC2EA2 /* Main.storyboard */; };
 		E9C289FD28066FC600FC2EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C289FC28066FC600FC2EA2 /* Assets.xcassets */; };
 		E9C28A0028066FC600FC2EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C289FE28066FC600FC2EA2 /* LaunchScreen.storyboard */; };
-		E9C28A0B2806722300FC2EA2 /* SDKSample in Frameworks */ = {isa = PBXBuildFile; productRef = E9C28A0A2806722300FC2EA2 /* SDKSample */; };
+		E9C28A13280679BB00FC2EA2 /* SDKSample in Frameworks */ = {isa = PBXBuildFile; productRef = E9C28A12280679BB00FC2EA2 /* SDKSample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		E9C289FC28066FC600FC2EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C289FF28066FC600FC2EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9C28A0128066FC600FC2EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9C28A082806719000FC2EA2 /* SDKSample */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SDKSample; path = ../..; sourceTree = "<group>"; };
+		E9C28A112806787F00FC2EA2 /* SDKSample */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SDKSample; path = ../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C28A0B2806722300FC2EA2 /* SDKSample in Frameworks */,
+				E9C28A13280679BB00FC2EA2 /* SDKSample in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		E9C289E728066FC400FC2EA2 = {
 			isa = PBXGroup;
 			children = (
-				E9C28A072806719000FC2EA2 /* Packages */,
+				E9C28A112806787F00FC2EA2 /* SDKSample */,
 				E9C289F228066FC400FC2EA2 /* SDKSampleExample */,
 				E9C289F128066FC400FC2EA2 /* Products */,
 				E9C28A092806722300FC2EA2 /* Frameworks */,
@@ -72,14 +72,6 @@
 			path = SDKSampleExample;
 			sourceTree = "<group>";
 		};
-		E9C28A072806719000FC2EA2 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				E9C28A082806719000FC2EA2 /* SDKSample */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		E9C28A092806722300FC2EA2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +96,7 @@
 			);
 			name = SDKSampleExample;
 			packageProductDependencies = (
-				E9C28A0A2806722300FC2EA2 /* SDKSample */,
+				E9C28A12280679BB00FC2EA2 /* SDKSample */,
 			);
 			productName = SDKSampleExample;
 			productReference = E9C289F028066FC400FC2EA2 /* SDKSampleExample.app */;
@@ -385,7 +377,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E9C28A0A2806722300FC2EA2 /* SDKSample */ = {
+		E9C28A12280679BB00FC2EA2 /* SDKSample */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SDKSample;
 		};
